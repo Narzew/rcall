@@ -1,0 +1,20 @@
+module LE::LCPPack
+	def self.make_lcp(cfg,out)
+		$archive = {}
+		$filelist = []
+		file = File.open(cfg,'rb')
+		config = file.read
+		file.close
+		config.each_line{|x|
+			x = x.to_s.gsub("\n","").gsub(" ","")
+			filea = File.open(x,'rb')
+			data = filea.read
+			filea.close
+			$archive[x] = data
+		}
+		$result = $archive
+		file = File.open(out, 'wb')
+		file.write(Zlib::Deflate.deflate(Marshal.dump($result)))
+		file.close
+	end
+end

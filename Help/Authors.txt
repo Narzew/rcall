@@ -1,0 +1,13 @@
+100 % : Narzew (narzew@gmail.com)
+
+Version : 0.05
+
+Main Engine - Narzew
+Library System - Narzew
+Version 0.05 modifications - Narzew
+
+Libraries :
+
+String Library - Narzew
+Net Library - Narzew
+File Library - Narzew

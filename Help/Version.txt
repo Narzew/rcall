@@ -1,0 +1,36 @@
+Version 0.03 (24.08.2013)
+
+Version 0.01 (12.08.2013)
+ - Basic Release
+- 23 functions
+
+Version 0.02 (12.08.2013)
+
+- Added 27 new functions 24-50
+- 50 functions total
+- Instruction: Added Funkcje.txt with function definitions
+
+Version 0.03 (24.08.2013)
+
+- Added Library System
+- Better file structure
+- Better code (now using OOP)
+
+Version 0.04 (30.08.2013)
+
+- Fixed bug with Library System
+- More optimal libraries with library preloading
+- Improved instruction
+- Added Net library to Stdlib
+- Added String library to Stdlib
+- Added 3 new functions
+- 55 functions totals
+
+Version 0.05 (09.09.2013)
+
+Warning! Older are not compatible!
+No compatible with version 0.04 interpreter & version 0.04 compiled code.
+- Totally rewritten language
+- Now preparing for the next patches
+- Removed some functions from the main, packed it to libs, only neccessary functions are in main lib.
+- I will update help and samples in the version 0.06

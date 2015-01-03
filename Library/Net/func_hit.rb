@@ -1,0 +1,1 @@
+open($fargs[0])

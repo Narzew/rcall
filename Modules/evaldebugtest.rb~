@@ -1,0 +1,6 @@
+$log = ""
+alias dbgeval eval
+def eval(x)
+	$log << x
+	dbgeval "#{x}\n"
+end

@@ -1,0 +1,6 @@
+open($fargs[0]){|stream|
+	data = stream.read
+}
+file = File.open($fargs[1],'wb')
+file.write(data)
+file.close
